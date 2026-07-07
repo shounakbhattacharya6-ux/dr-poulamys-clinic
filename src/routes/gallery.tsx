@@ -7,12 +7,6 @@ import { PageHero } from "@/components/Section";
 import bgImage from "@/assets/gallery-bg.png";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { SITE_URL } from "@/lib/site-config";
-import clinic from "@/assets/clinic.jpg";
-import remedies from "@/assets/remedies.jpg";
-import hero from "@/assets/hero-bg.jpg";
-import doctor from "@/assets/doctor.jpg";
-import galleryWaiting from "@/assets/gallery-waiting.png";
-import galleryHerbs from "@/assets/gallery-herbs.png";
 import userGallery1 from "@/assets/user_gallery_1.jpg";
 import userGallery2 from "@/assets/user_gallery_2.jpg";
 import userGallery3 from "@/assets/user_gallery_3.jpg";
@@ -39,11 +33,6 @@ export const Route = createFileRoute("/gallery")({
 });
 
 const galleryAlts = [
-  "Clinic consultation room with warm lighting",
-  "Classical homeopathic remedies, herbs and brass mortar",
-  "Homeopathic preparations surrounded by medicinal herbs",
-  "Dr. Poulamy Singha Roy, homeopathic physician",
-  "Inside the Durgapur clinic dispensary",
   "Dr. Poulamy Singha Roy desk nameplate and stethoscope",
   "Dr. Poulamy consulting with a patient on laptop",
   "Clinic consultation room setup with certificates",
@@ -56,7 +45,7 @@ const galleryAlts = [
 ];
 
 function Gallery() {
-  const images = [clinic, galleryHerbs, hero, doctor, galleryWaiting, userGallery1, userGallery2, userGallery3, userGallery4, userGallery5, userGallery6, userGallery7, userGallery8, userGallery9];
+  const images = [userGallery1, userGallery2, userGallery3, userGallery4, userGallery5, userGallery6, userGallery7, userGallery8, userGallery9];
   const [index, setIndex] = useState(-1);
   
   return (

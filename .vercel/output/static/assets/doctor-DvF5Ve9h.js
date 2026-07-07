@@ -1,0 +1,1 @@
+var e=`/assets/doctor-CnHnmnY1.jpg`;export{e as t};

@@ -17,6 +17,8 @@ import userGallery4 from "@/assets/user_gallery_4.jpg";
 import userGallery5 from "@/assets/user_gallery_5.jpg";
 import userGallery6 from "@/assets/user_gallery_6.jpg";
 import userGallery7 from "@/assets/user_gallery_7.jpg";
+import userGallery8 from "@/assets/user_gallery_8.jpg";
+import userGallery9 from "@/assets/user_gallery_9.jpg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -46,10 +48,12 @@ const galleryAlts = [
   "Doctor of Medicine (M.D. Homoeopathy) certificate",
   "The Guiding Symptoms of our Materia Medica books stack",
   "Internship Completion Certificate from Mahesh Bhattacharyya Homoeopathic Medical College",
+  "Clinic waiting area with chairs and floral desk",
+  "Clinic dispensary counter filled with homeopathic products",
 ];
 
 function Gallery() {
-  const images = [clinic, galleryHerbs, hero, doctor, galleryWaiting, userGallery1, userGallery2, userGallery3, userGallery4, userGallery5, userGallery6, userGallery7];
+  const images = [clinic, galleryHerbs, hero, doctor, galleryWaiting, userGallery1, userGallery2, userGallery3, userGallery4, userGallery5, userGallery6, userGallery7, userGallery8, userGallery9];
   return (
     <Layout>
       <PageHero bgImage={bgImage} eyebrow="Gallery" title="Inside the clinic" subtitle="A glimpse into our healing space in Durgapur." />

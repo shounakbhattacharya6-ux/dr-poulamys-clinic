@@ -1,0 +1,1 @@
+var e=`/assets/consultations-bg-Bllrg047.png`;export{e as t};

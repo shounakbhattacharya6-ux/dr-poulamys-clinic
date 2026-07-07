@@ -72,10 +72,10 @@ function Gallery() {
         </div>
       </section>
       <section className="container-x py-20">
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 [&>div]:mb-6 [&>div]:break-inside-avoid">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((src, i) => (
-            <div key={i} className="group relative overflow-hidden rounded-3xl bg-card border border-border shadow-sm hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 cursor-pointer">
-              <img src={src} alt={galleryAlts[i]} loading="lazy" className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+            <div key={i} className="group relative aspect-[4/3] overflow-hidden rounded-3xl bg-card border border-border shadow-sm hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 cursor-pointer">
+              <img src={src} alt={galleryAlts[i]} loading="lazy" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100 flex flex-col justify-end p-6">
                 <p className="text-white/95 font-medium text-sm translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 drop-shadow-md leading-relaxed">
                   {galleryAlts[i]}

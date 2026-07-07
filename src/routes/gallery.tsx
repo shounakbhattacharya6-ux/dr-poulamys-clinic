@@ -72,9 +72,16 @@ function Gallery() {
         </div>
       </section>
       <section className="container-x py-20">
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 [&>img]:mb-5 [&>img]:break-inside-avoid">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 [&>div]:mb-6 [&>div]:break-inside-avoid">
           {images.map((src, i) => (
-            <img key={i} src={src} alt={galleryAlts[i]} loading="lazy" className="w-full rounded-2xl border border-border" />
+            <div key={i} className="group relative overflow-hidden rounded-3xl bg-card border border-border shadow-sm hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 cursor-pointer">
+              <img src={src} alt={galleryAlts[i]} loading="lazy" className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100 flex flex-col justify-end p-6">
+                <p className="text-white/95 font-medium text-sm translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 drop-shadow-md leading-relaxed">
+                  {galleryAlts[i]}
+                </p>
+              </div>
+            </div>
           ))}
         </div>
       </section>

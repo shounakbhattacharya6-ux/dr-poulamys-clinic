@@ -1,4 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import { Layout } from "@/components/Layout";
 import { PageHero } from "@/components/Section";
 import bgImage from "@/assets/gallery-bg.png";
@@ -54,6 +57,8 @@ const galleryAlts = [
 
 function Gallery() {
   const images = [clinic, galleryHerbs, hero, doctor, galleryWaiting, userGallery1, userGallery2, userGallery3, userGallery4, userGallery5, userGallery6, userGallery7, userGallery8, userGallery9];
+  const [index, setIndex] = useState(-1);
+  
   return (
     <Layout>
       <PageHero bgImage={bgImage} eyebrow="Gallery" title="Inside the clinic" subtitle="A glimpse into our healing space in Durgapur." />
@@ -74,7 +79,7 @@ function Gallery() {
       <section className="container-x py-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((src, i) => (
-            <div key={i} className="group relative aspect-[4/3] overflow-hidden rounded-3xl bg-card border border-border shadow-sm hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 cursor-pointer">
+            <div key={i} onClick={() => setIndex(i)} className="group relative aspect-[4/3] overflow-hidden rounded-3xl bg-card border border-border shadow-sm hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 cursor-pointer">
               <img src={src} alt={galleryAlts[i]} loading="lazy" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100 flex flex-col justify-end p-6">
                 <p className="text-white/95 font-medium text-sm translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 drop-shadow-md leading-relaxed">
@@ -85,6 +90,14 @@ function Gallery() {
           ))}
         </div>
       </section>
+
+      <Lightbox
+        open={index >= 0}
+        index={index}
+        close={() => setIndex(-1)}
+        slides={images.map((src) => ({ src }))}
+      />
+
       <InstagramFeed title="Latest from Instagram" />
     </Layout>
   );

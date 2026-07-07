@@ -16,6 +16,29 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "best-homeopathy-clinic-in-durgapur-for-chronic-illness",
+    title: "Finding the Best Homeopathy Clinic in Durgapur for Chronic Illness",
+    category: "Clinic Updates",
+    description: "Why more patients in Durgapur are turning to classical homeopathy for long-term relief from chronic conditions.",
+    image: clinicImg,
+    content: `
+      <h2>The Rise of Classical Homeopathy in Durgapur</h2>
+      <p>Durgapur is a fast-paced, growing city. With urbanization and modern lifestyle changes, we are seeing a significant rise in chronic health conditions among residents—from stress-induced migraines and autoimmune disorders to severe pediatric allergies and PCOS.</p>
+      <p>While acute care is readily available, many patients feel frustrated when chronic conditions keep returning. This is why Dr. Poulamy's Homeopathy Clinic, located near Maa Kamala Mandir in Gopalmath, has become a trusted destination for those seeking deep, lasting healing.</p>
+      
+      <h3>Why Patients Choose Us</h3>
+      <p>At our clinic, we don't just hand over a prescription in five minutes. We believe the <em>best</em> homeopathy clinic is one that listens. Our initial consultations take 45-60 minutes because we need to understand your unique physical and emotional constitution.</p>
+      <ul>
+        <li><strong>No Temporary Suppression:</strong> We aim to treat the root cause, not just silence the symptom.</li>
+        <li><strong>Safe for All Ages:</strong> From infants with recurrent tonsillitis to elderly patients managing arthritis, our natural remedies have zero side effects.</li>
+        <li><strong>Accessible Care:</strong> We offer dedicated Sunday clinic visits for busy professionals in Durgapur, alongside comprehensive online consultations for patients across West Bengal.</li>
+      </ul>
+      
+      <h3>A Partner in Your Health Journey</h3>
+      <p>If you're dealing with a chronic illness and are tired of the cycle of temporary relief and recurring flare-ups, classical homeopathy offers a gentle, permanent path forward. We are proud to serve the Durgapur community with authentic, constitutional care.</p>
+    `,
+  },
+  {
     slug: "understanding-constitutional-homeopathy",
     title: "Understanding Constitutional Homeopathy",
     category: "Foundations",

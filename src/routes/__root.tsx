@@ -95,8 +95,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Dr. Poulamy's Homeopathy Clinic | Classical Homeopathy in India" },
       { property: "og:description", content: "Classical, constitutional homeopathic care by Dr. Poulamy Singha Roy. Online consultations across India and Sunday clinic visits in Durgapur, West Bengal." },
       { name: "twitter:description", content: "Classical, constitutional homeopathic care by Dr. Poulamy Singha Roy. Online consultations across India and Sunday clinic visits in Durgapur, West Bengal." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1e2cba8a-2cc1-4136-b181-cba4480498d7/id-preview-654155d7--ecd92988-7d9a-41ac-b75f-cb5f7fed6a8d.lovable.app-1782981174130.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1e2cba8a-2cc1-4136-b181-cba4480498d7/id-preview-654155d7--ecd92988-7d9a-41ac-b75f-cb5f7fed6a8d.lovable.app-1782981174130.png" },
+      { property: "og:image", content: "https://drpoulamys.in/favicon.png" },
+      { name: "twitter:image", content: "https://drpoulamys.in/favicon.png" },
     ],
     links: [
       { rel: "icon", href: "/favicon.png", type: "image/png" },

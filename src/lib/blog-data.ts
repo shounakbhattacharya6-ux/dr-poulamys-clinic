@@ -305,5 +305,64 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Catalyst for Deep Healing</h3>
       <p>Homeopathic remedies act on the energetic level, helping to release stuck emotional patterns and gently processing grief or trauma. Patients often report feeling a profound sense of lightness, improved mental clarity, and an overall greater resilience as they begin to heal from the inside out.</p>
     `,
+  },
+  {
+    slug: "modern-burnout-homeopathic-recovery",
+    title: "Modern Burnout & Homeopathic Recovery",
+    category: "Mental Health",
+    description: "How classical homeopathy addresses the exhaustion, brain fog, and chronic stress of modern professional life.",
+    image: parallaxNature,
+    content: `
+      <h2>The Epidemic of Burnout</h2>
+      <p>In today’s hyper-connected world, our nervous systems are rarely given the chance to fully rest. Long hours, constant notifications, and high-pressure environments lead to what we call "burnout"—a state of profound physical, mental, and emotional exhaustion.</p>
+      
+      <figure class="my-10">
+        <img src="${heroBgImg}" alt="Calm environment for healing" class="rounded-3xl shadow-lg w-full object-cover aspect-[21/9]" />
+        <figcaption class="text-center text-sm text-muted-foreground mt-3">Finding space to decompress is the first step in recovery.</figcaption>
+      </figure>
+
+      <h3>Recognizing the Signs</h3>
+      <p>Burnout doesn't happen overnight. It creeps up. You might notice:</p>
+      <ul>
+        <li><strong>Physical:</strong> Chronic fatigue, tension headaches, or digestive flare-ups.</li>
+        <li><strong>Mental:</strong> "Brain fog", inability to concentrate, or a lack of motivation.</li>
+        <li><strong>Emotional:</strong> Feeling overwhelmed, irritable, or entirely detached from your work and loved ones.</li>
+      </ul>
+
+      <blockquote class="border-l-4 border-gold pl-6 italic text-primary/80 my-8 text-xl">
+        "Healing from burnout is not just about sleeping more; it is about restoring the vital energy that chronic stress has depleted."
+      </blockquote>
+
+      <h3>The Homeopathic Approach to Stress</h3>
+      <p>Conventional medicine often relies on stimulants to get through the day or sedatives to sleep at night. Homeopathy takes a restorative approach. We look at <em>how</em> your body holds stress. Do you clench your jaw? Do you get acid reflux? Do you wake up at 3 AM with a racing mind?</p>
+      <p>By identifying your specific constitutional response to stress, we prescribe a remedy that acts as a gentle reset switch for your nervous system, helping you reclaim your energy and mental clarity naturally.</p>
+    `,
+  },
+  {
+    slug: "philosophy-of-minimalist-healing",
+    title: "The Philosophy of Minimalist Healing",
+    category: "Foundations",
+    description: "Understanding the 'minimum dose' principle in homeopathy and why less is truly more.",
+    image: parallaxBotanical,
+    content: `
+      <h2>Why Less is More</h2>
+      <p>One of the most difficult concepts for new patients to grasp is the homeopathic principle of the "minimum dose." In a culture where we are taught that a stronger headache requires a stronger pill, the idea that a highly diluted micro-dose can trigger profound healing seems counter-intuitive.</p>
+
+      <figure class="my-10">
+        <img src="${remediesImg}" alt="Homeopathic remedies" class="rounded-3xl shadow-lg w-full object-cover aspect-video" />
+        <figcaption class="text-center text-sm text-muted-foreground mt-3">The gentle power of classical homeopathic dilutions.</figcaption>
+      </figure>
+
+      <h3>The Law of Similars & The Minimum Dose</h3>
+      <p>Homeopathy operates on the principle of <em>"Like Cures Like"</em>. A substance that causes symptoms in a healthy person can cure those same symptoms in a sick person. However, if given in a crude, raw dose, it could cause side effects or worsen the condition.</p>
+      <p>To avoid this, Dr. Samuel Hahnemann developed the process of potentization—a method of sequential dilution and succussion (vigorous shaking). This process removes the physical toxicity of the original substance while amplifying its energetic healing properties.</p>
+
+      <blockquote class="border-l-4 border-gold pl-6 italic text-primary/80 my-8 text-xl">
+        "The highest ideal of cure is the rapid, gentle, and permanent restoration of health." <br/>— Dr. Samuel Hahnemann
+      </blockquote>
+
+      <h3>Working With Your Body</h3>
+      <p>We are not trying to force the body into submission with heavy chemical interventions. Instead, the minimum dose acts as a gentle whisper, a precise informational signal that reminds your body's vital force how to heal itself. This is why homeopathic remedies are safe for infants, pregnant women, and the elderly—they stimulate natural recovery without the burden of side effects.</p>
+    `,
   }
 ];

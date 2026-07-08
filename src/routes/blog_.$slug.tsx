@@ -62,6 +62,10 @@ function BlogPost() {
               <span className="rounded-full bg-secondary px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-primary">
                 {post.category}
               </span>
+              <span className="text-sm font-medium text-muted-foreground">
+                {post.date}
+              </span>
+              <span className="text-sm text-muted-foreground">•</span>
               <span className="text-sm font-medium text-gold">
                 By Dr. Poulamy's Homeopathy Clinic
               </span>

@@ -8,6 +8,7 @@ import clinicImg from "@/assets/clinic.jpg";
 export interface BlogPost {
   slug: string;
   title: string;
+  date: string;
   category: string;
   description: string;
   image: string;
@@ -18,6 +19,9 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "best-homeopathy-clinic-in-durgapur-for-chronic-illness",
     title: "Finding the Best Homeopathy Clinic in Durgapur for Chronic Illness",
+
+    date: "July 8, 2026",
+    date: "July 12, 2026",
     category: "Clinic Updates",
     description: "Why more patients in Durgapur are turning to classical homeopathy for long-term relief from chronic conditions.",
     image: clinicImg,
@@ -41,6 +45,9 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "understanding-constitutional-homeopathy",
     title: "Understanding Constitutional Homeopathy",
+
+    date: "July 5, 2026",
+    date: "July 10, 2026",
     category: "Foundations",
     description: "What does 'constitutional' really mean — and why one remedy can shift many complaints.",
     image: remediesImg,
@@ -62,6 +69,9 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "pcos-homeopathy-gentle-path",
     title: "PCOS & Homeopathy: A Gentle Path",
+
+    date: "July 1, 2026",
+    date: "July 8, 2026",
     category: "Women's Health",
     description: "How classical homeopathy approaches the hormonal patterns behind PCOS.",
     image: heroBgImg,
@@ -88,6 +98,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "building-immunity-in-children",
     title: "Building Immunity in Children",
+
+    date: "June 28, 2026",
     category: "Child Health",
     description: "Constitutional support for recurrent colds, tonsillitis and seasonal flares.",
     image: parallaxNature,
@@ -109,6 +121,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "eczema-flares-lifestyle-mind",
     title: "Eczema Flares: Lifestyle, Mind & Remedy",
+
+    date: "June 20, 2026",
     category: "Skin & Hair",
     description: "Looking beyond the rash — triggers, stress patterns and constitutional clues.",
     image: parallaxBotanical,
@@ -133,6 +147,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "first-consultation-expectations",
     title: "What to Expect in Your First Consultation",
+
+    date: "June 15, 2026",
     category: "Process",
     description: "A walk‑through of the 30-40 minute case‑taking and what makes it different.",
     image: clinicImg,
@@ -158,6 +174,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "allopathy-and-homeopathy",
     title: "Allopathy + Homeopathy — Can They Work Together?",
+
+    date: "June 10, 2026",
     category: "FAQ",
     description: "How to safely combine ongoing prescriptions with classical homeopathic care.",
     image: parallaxWood,
@@ -182,6 +200,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "holistic-approach-to-migraines",
     title: "A Holistic Approach to Migraines",
+
+    date: "June 5, 2026",
     category: "Chronic Conditions",
     description: "Understanding and addressing the deep root causes of chronic headaches.",
     image: remediesImg,
@@ -204,6 +224,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "managing-asthma-naturally",
     title: "Managing Asthma Naturally",
+
+    date: "May 28, 2026",
     category: "Respiratory Health",
     description: "How homeopathy strengthens respiratory immunity and reduces dependency on inhalers.",
     image: parallaxNature,
@@ -226,6 +248,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "homeopathy-for-digestive-health",
     title: "Homeopathy for Digestive Health",
+
+    date: "May 20, 2026",
     category: "Gastrointestinal",
     description: "Restoring gut balance naturally for IBS, acidity, and chronic indigestion.",
     image: parallaxBotanical,
@@ -248,6 +272,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "dealing-with-menopause-symptoms",
     title: "Navigating Menopause with Ease",
+
+    date: "May 15, 2026",
     category: "Women's Health",
     description: "Natural support for hot flashes, mood swings, and sleep disturbances during menopause.",
     image: heroBgImg,
@@ -270,6 +296,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "allergies-and-constitutional-care",
     title: "Allergies and Constitutional Care",
+
+    date: "May 10, 2026",
     category: "Immunity",
     description: "Overcoming seasonal allergies and hay fever by retraining the immune system.",
     image: parallaxWood,
@@ -287,6 +315,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "healing-emotional-trauma",
     title: "Healing Emotional Trauma",
+
+    date: "May 5, 2026",
     category: "Mental Health",
     description: "The profound role of classical homeopathy in addressing grief, anxiety, and past traumas.",
     image: clinicImg,
@@ -309,6 +339,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "modern-burnout-homeopathic-recovery",
     title: "Modern Burnout & Homeopathic Recovery",
+
+    date: "May 1, 2026",
     category: "Mental Health",
     description: "How classical homeopathy addresses the exhaustion, brain fog, and chronic stress of modern professional life.",
     image: parallaxNature,
@@ -341,6 +373,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "philosophy-of-minimalist-healing",
     title: "The Philosophy of Minimalist Healing",
+
+    date: "July 8, 2026",
     category: "Foundations",
     description: "Understanding the 'minimum dose' principle in homeopathy and why less is truly more.",
     image: parallaxBotanical,

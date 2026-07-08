@@ -50,6 +50,9 @@ function Blog() {
               <span className="absolute bottom-3 left-4 rounded-full bg-card/90 backdrop-blur px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-primary">{p.category}</span>
             </Link>
             <div className="p-6 flex flex-col flex-1">
+              <div className="mb-3 text-xs text-muted-foreground font-medium flex items-center justify-between">
+                <span>{p.date}</span>
+              </div>
               <Link to="/blog/$slug" params={{ slug: p.slug }}>
                 <h2 className="font-display text-xl text-primary group-hover:text-gold transition">{p.title}</h2>
               </Link>
